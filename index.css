@@ -1,0 +1,33 @@
+body{
+    background: url('Coronavirus-1.jpg');
+    background-size: cover;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    list-style-type:None;
+    
+}
+.navbar ul li a{
+    text-decoration: None;
+    padding:50;
+    font-size:30;
+    color:white;
+    padding-bottom: 10;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid white;
+}
+.header{
+    height:100%;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+}
+h1{
+    color:white;
+    font-size: 100;
+}
